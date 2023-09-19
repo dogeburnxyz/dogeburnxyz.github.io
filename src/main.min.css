@@ -1948,6 +1948,7 @@ section .bg {
   display: flex;
   align-items: center;
   justify-content: center;
+  -webkit-width: 300px;
 }
 
 @media (min-width: 1200px) {
