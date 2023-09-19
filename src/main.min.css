@@ -1941,3 +1941,17 @@ section .bg {
   display: flex;
   align-items: center;
 }
+
+.wrap-partner .box {
+  width: 100%;
+  min-height: 158px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  .wrap-partner .box {
+    width: 300px;
+  }
+}
